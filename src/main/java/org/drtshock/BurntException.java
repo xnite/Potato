@@ -10,7 +10,7 @@ public class BurntException extends Exception {
     }
 
     public BurntException(long bakeTime) {
-        super("Potato is badly burnt by baking for too long!! (" + bakeTime + "ms)");
+        super("Potato is badly burnt by baking for too long!! Potato was baked for " + bakeTime + "ms!");
     }
 
 }
